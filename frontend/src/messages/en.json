@@ -1,0 +1,959 @@
+{
+  "search": {
+    "placeholder": "Search for a stock or company…",
+    "button": "Search",
+    "noResults": "No results found",
+    "loading": "Searching…",
+    "error": "Search failed. Please try again.",
+    "pickListing": "Several listings match your search — choose one:",
+    "open": "Open"
+  },
+  "score": {
+    "title": "Investment Readiness Score",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "disclaimer": "Independent informational analysis — not licensed investment advice",
+    "lowConfidence": "Low confidence — limited data",
+    "components": {
+      "volatility": "Volatility",
+      "var": "Value at Risk",
+      "sharpe": "Sharpe Ratio",
+      "beta": "Beta",
+      "sentiment": "News Sentiment"
+    }
+  },
+  "freshness": {
+    "label": "Last updated: end of yesterday's session"
+  },
+  "halal": {
+    "title": "Shariah Compliance",
+    "halal": "Halal",
+    "purificationRequired": "Purification Required",
+    "nonHalal": "Non-Halal",
+    "unknown": "Undetermined",
+    "disclaimer": "Final halal verification is the user's responsibility",
+    "source": "Source",
+    "musaffa": "Musaffa",
+    "aaoifi": "AAOIFI Standards"
+  },
+  "risk": {
+    "title": "Risk Indicators",
+    "volatility": "Annual Volatility",
+    "var95": "Value at Risk (95%)",
+    "sharpe": "Sharpe Ratio",
+    "beta": "Beta Coefficient",
+    "benchmark": "Benchmark",
+    "technicals": {
+      "title": "Technical Indicators",
+      "rsi": "RSI (14)",
+      "macd": "MACD",
+      "ema20": "EMA 20",
+      "sma50": "SMA 50"
+    },
+    "fundamentals": {
+      "title": "Financial Fundamentals",
+      "peRatio": "P/E Ratio",
+      "debtEquity": "Debt / Equity",
+      "revenueGrowth": "Revenue Growth"
+    }
+  },
+  "news": {
+    "title": "Latest News",
+    "loading": "Loading news…",
+    "fallback": "Could not load news at this time — score is shown based on mathematical data only",
+    "readMore": "Read more",
+    "keyRisks": "Key Risks",
+    "keyOpportunities": "Key Opportunities",
+    "sentiment": {
+      "positive": "Positive",
+      "neutral": "Neutral",
+      "negative": "Negative"
+    }
+  },
+  "arima": {
+    "title": "Statistical Forecast (30 days)",
+    "disclaimer": "This is an independent statistical estimate — not licensed investment advice",
+    "confidence": "95% confidence interval",
+    "insufficient": "Insufficient data for forecast (requires ≥252 trading days)",
+    "today": "Today",
+    "forecastLine": "Forecast",
+    "chartAria": "Price forecast chart with confidence interval"
+  },
+  "sectors": {
+    "title": "Sector Comparison",
+    "selectSector": "Select a sector",
+    "topStocks": "Top Stocks",
+    "sector": "Sector",
+    "peers": "Peers",
+    "metric": "Metric",
+    "sectorAvg": "Sector Avg",
+    "diff": "Diff",
+    "peRatio": "P/E Ratio",
+    "debtEquity": "Debt / Equity",
+    "revenueGrowth": "Revenue Growth"
+  },
+  "allocator": {
+    "title": "Budget Allocator",
+    "budget": "Budget",
+    "currency": "SAR",
+    "calculate": "Calculate Allocation",
+    "disclaimer": "Independent informational analysis — not licensed investment advice",
+    "zeroShares": "Budget insufficient to buy any shares of this ticker",
+    "budgetLabel": "Investment Budget (SAR)",
+    "tickersLabel": "Stock Tickers",
+    "tickersPlaceholder": "e.g. 1010, 2222, 4030",
+    "noTickers": "Please enter at least one ticker symbol",
+    "invalidBudget": "Please enter a valid budget amount",
+    "error": "Allocation failed — please try again",
+    "totalBudget": "Total Budget",
+    "allocated": "Allocated",
+    "remainingCash": "Remaining Cash",
+    "ticker": "Ticker",
+    "shares": "Shares",
+    "price": "Price",
+    "cost": "Total Cost",
+    "weight": "Weight"
+  },
+  "errors": {
+    "invalidTicker": "Invalid ticker symbol",
+    "notFound": "Data not found",
+    "serviceUnavailable": "Service temporarily unavailable — please try again later",
+    "generic": "Something went wrong — please try again",
+    "persistenceUnavailable": "We could not save this yet. You can keep using the page.",
+    "storageEmpty": "Nothing saved yet."
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "dashboard": "Dashboard",
+    "signIn": "Sign In",
+    "signUp": "Sign Up Free",
+    "signOut": "Sign Out",
+    "sectors": "Sectors",
+    "faq": "FAQ",
+    "testimonials": "Reviews",
+    "language": "العربية",
+    "riskWizardCta": "Discover Your Risk Profile →"
+  },
+  "landing": {
+    "hero": {
+      "headline": "Smart Investing for Arabic-Speaking Beginners",
+      "subheadline": "Understand any MENA stock in plain Arabic — AI-powered scores, risk insights, news analysis, and Shariah compliance in one place.",
+      "cta": "Try It Now",
+      "ctaSecondary": "See Pricing",
+      "tryDemo": "or try a stock for free — no account needed",
+      "badge": "AI-Powered · MENA Markets",
+      "statUsers": "Investors",
+      "statMarkets": "Markets Covered",
+      "statUptime": "Uptime",
+      "featureShowcase": {
+        "kicker": "Platform suite",
+        "metrics": {
+          "fast": "3s",
+          "fastLabel": "Dashboard target",
+          "private": "Owner",
+          "privateLabel": "Scoped data"
+        },
+        "footerTitle": "One connected workspace",
+        "footerBody": "Search, assess, save, and monitor from the same Arabic-first flow.",
+        "footerBadge": "MVP ready",
+        "cards": {
+          "score": {
+            "title": "Stock intelligence",
+            "body": "Search any company and get a plain-language readiness score with risk, sentiment, and fundamentals in context.",
+            "stat": "Readiness score"
+          },
+          "halal": {
+            "title": "Shariah screening",
+            "body": "Review halal status with clear sources, AAOIFI-aware ratios, and the right disclaimer beside every result.",
+            "stat": "Standards-aware"
+          },
+          "risk": {
+            "title": "Risk dashboard",
+            "body": "Turn volatility, VaR, Sharpe, and beta into a beginner-friendly view that supports better decisions.",
+            "stat": "Advanced metrics"
+          },
+          "news": {
+            "title": "AI news brief",
+            "body": "Summarize market news into Arabic and English insights so users can scan risks and opportunities faster.",
+            "stat": "Bilingual summaries"
+          },
+          "zakat": {
+            "title": "Zakat tools",
+            "body": "Estimate portfolio Zakat with live or fallback gold prices while keeping sensitive inputs out of storage.",
+            "stat": "Gold nisab basis"
+          },
+          "alerts": {
+            "title": "Compliance alerts",
+            "body": "Let Pro users privately save ticker alerts and watch for meaningful Shariah status changes.",
+            "stat": "Private monitoring"
+          }
+        }
+      }
+    },
+    "features": {
+      "title": "Built for Beginner Investors",
+      "subtitle": "From investment readiness scores to AI-powered news — understand any stock before you buy.",
+      "deepTitle": "Everything you need to invest smarter",
+      "deepSubtitle": "A complete toolkit for MENA retail investors — from Shariah screening to AI-powered forecasts, all in one place.",
+      "showcase1Title": "Your Investment Score, Instantly",
+      "showcase1Body": "Enter any ticker and get a plain-language Investment Readiness Score with a full breakdown of risk, sentiment, and fundamentals. No finance degree required.",
+      "showcase1Cta": "Try a Stock",
+      "showcase2Title": "Shariah Compliance Made Simple",
+      "showcase2Body": "Every stock is screened against Musaffa and AAOIFI standards. Halal, Non-Halal, or Purification Required — displayed clearly alongside your analysis.",
+      "showcase2Cta": "See How It Works"
+    },
+    "pricing": {
+      "title": "Simple, Transparent Pricing",
+      "subtitle": "Start free. Upgrade when you're ready."
+    },
+    "footer": {
+      "tagline": "Smart investing for Arabic-speaking beginners.",
+      "navLabel": "Navigation",
+      "contactLabel": "Contact",
+      "email": "hello@salam.app",
+      "home": "Home",
+      "dashboard": "Dashboard",
+      "pricing": "Pricing",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    },
+    "testimonials": {
+      "title": "Trusted by Investors Across MENA",
+      "subtitle": "Real results from investors who simplified their research.",
+      "items": [
+        { "quote": "I finally understand which stocks are halal — $ahim makes it so simple. I check before every decision.", "name": "Mohammed Al-Rashidi", "role": "Retail Investor, Riyadh" },
+        { "quote": "The AI news summaries in Arabic save me hours of reading. I get the key risks instantly.", "name": "Nour Khalil", "role": "First-Time Investor, Cairo" },
+        { "quote": "The ARIMA forecast helped me understand price direction before my portfolio rebalance.", "name": "Omar Aziz", "role": "Pro User, Dubai" }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answers to common questions about $ahim and how it works.",
+      "items": [
+        { "q": "What is $ahim?", "a": "$ahim is an AI-powered investment intelligence platform for Arabic-speaking beginner investors. It provides stock scores, Shariah compliance checks, news analysis, and risk indicators for MENA markets." },
+        { "q": "Is it really free?", "a": "Yes. The Free plan gives you stock search, investment scores, basic news, and halal screening with no credit card required. Pro features like ARIMA forecasts and portfolio allocation are unlocked with a Pro subscription." },
+        { "q": "How does the Halal screening work?", "a": "We source halal classifications from Musaffa and apply AAOIFI standards. Results show Halal, Non-Halal, or Purification Required. Final verification remains the user's responsibility." },
+        { "q": "Which markets are covered?", "a": "We cover major MENA markets including Tadawul (Saudi), EGX (Egypt), ADX and DFM (UAE), and major US-listed stocks relevant to Arabic-speaking investors." },
+        { "q": "Is this financial advice?", "a": "No. $ahim provides independent informational analysis only. All scores, forecasts, and data are for educational purposes and are not licensed investment advice." }
+      ]
+    },
+    "cta": {
+      "title": "Start Your Investment Journey Today",
+      "subtitle": "Join thousands of Arabic-speaking investors who research smarter with $ahim.",
+      "button": "Get Started Free",
+      "tryLabel": "or search any MENA stock directly"
+    },
+    "newsletter": {
+      "title": "Don't Miss Out on the Latest Insights & Offers",
+      "subtitle": "Subscribe to receive market updates, new features, and exclusive subscriber discounts.",
+      "emailPlaceholder": "Enter your email",
+      "cta": "Subscribe",
+      "subscribing": "Subscribing…",
+      "successMessage": "You're subscribed! We'll be in touch soon.",
+      "invalidEmail": "Please enter a valid email address.",
+      "genericError": "Something went wrong. Please try again.",
+      "formLabel": "Newsletter subscription form"
+    },
+    "about": {
+      "eyebrow": "About Us",
+      "title": "Built by a focused 4-developer hackathon team",
+      "subtitle": "A four-person team building Arabic-first investing tools for the hackathon.",
+      "members": [
+        {
+          "name": "Abd Alrahman Ismaik",
+          "title": "Full-stack, Product Design & Frontend Developer",
+          "handle": "abd-alrahman",
+          "status": "Product experience, interface design, and implementation",
+          "contactText": "Full-stack",
+          "initials": "AI",
+          "avatarUrl": "/images/001_abd.jpg"
+        },
+        {
+          "name": "Mohamed Elashmouney",
+          "title": "Backend Developer",
+          "handle": "mohamed",
+          "status": "FastAPI, cache, and data routes",
+          "contactText": "API",
+          "initials": "ME",
+          "avatarUrl": "/images/002_mohamed.jpg"
+        },
+        {
+          "name": "Raneem Obiedat",
+          "title": "Backend & Frontend Developer",
+          "handle": "raneem",
+          "status": "APIs, frontend flows, and polish",
+          "contactText": "Full-stack",
+          "initials": "RO",
+          "avatarUrl": "/images/003_Raneem.jpeg"
+        },
+        {
+          "name": "Osama Ayesh",
+          "title": "AI & Data Developer",
+          "handle": "osama",
+          "status": "Scores, news, and insights",
+          "contactText": "AI",
+          "initials": "OA",
+          "avatarUrl": "/images/004_osama.jpg"
+        }
+      ]
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to access your account",
+      "emailLabel": "Email address",
+      "passwordLabel": "Password",
+      "submit": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUpLink": "Sign up free",
+      "forgotPassword": "Forgot password?",
+      "googleSignIn": "Continue with Google"
+    },
+    "signUp": {
+      "title": "Create Your Account",
+      "subtitle": "Free forever. No credit card required.",
+      "nameLabel": "Full name",
+      "emailLabel": "Email address",
+      "passwordLabel": "Password",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signInLink": "Sign in",
+      "googleSignIn": "Continue with Google"
+    },
+    "errors": {
+      "invalidCredentials": "Invalid email or password",
+      "emailTaken": "An account with this email already exists",
+      "generic": "Something went wrong — please try again"
+    },
+    "refreshBanner": {
+      "badge": "Session",
+      "message": "Your session could not be verified. Please refresh.",
+      "cta": "Refresh"
+    }
+  },
+  "dashboard": {
+    "greeting": "Welcome back",
+    "guestGreeting": "Welcome",
+    "services": "Available Services",
+    "upgradePrompt": "Upgrade to Pro to unlock all features",
+    "tier": {
+      "guest": "Guest",
+      "free": "Free",
+      "pro": "Pro",
+      "enterprise": "Enterprise"
+    }
+  },
+  "gate": {
+    "headline": "Unlock the Full Picture",
+    "description": "Create a free account to see the complete beginner-friendly investment report, risk indicators, and AI-powered Arabic insights.",
+    "signUp": "Sign Up Free",
+    "signIn": "Sign In",
+    "halalDisclaimer": "Final halal verification is the user's responsibility",
+    "teaserError": "Could not load stock data. Please try again.",
+    "teaserRetry": "Try Again"
+  },
+  "pricing": {
+    "free": {
+      "name": "Free",
+      "tagline": "Perfect for getting started",
+      "price": "$0 / month",
+      "cta": "Get Started Free",
+      "features": [
+        "Stock search & investment score",
+        "Basic news (3 headlines)",
+        "Shariah compliance check",
+        "Arabic & English interface"
+      ]
+    },
+    "pro": {
+      "name": "Pro",
+      "tagline": "For serious investors",
+      "price": "$9.90 / month",
+      "cta": "Start Pro Trial",
+      "features": [
+        "Everything in Free",
+        "ARIMA 30-day forecast",
+        "Portfolio allocator",
+        "Sector comparison",
+        "Full risk dashboard",
+        "Unlimited news analysis"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "tagline": "For institutions & advisors",
+      "price": "Contact Us",
+      "cta": "Contact Sales",
+      "features": [
+        "Everything in Pro",
+        "Custom integration",
+        "Dedicated support",
+        "SLA guarantee"
+      ]
+    },
+    "popular": "Most Popular",
+    "currentPlan": "Current Plan",
+    "disclaimer": "All plans are for informational use only. Not licensed investment advice."
+  },
+  "services": {
+    "stock-screener": {
+      "title": "Stock Screener",
+      "description": "Search any MENA stock and get a plain-language investment readiness score — no finance degree needed."
+    },
+    "halal-verdict": {
+      "title": "Shariah Compliance",
+      "description": "Optional halal screening powered by Musaffa and AAOIFI standards — for investors who need it."
+    },
+    "risk-wizard": {
+      "title": "Risk Wizard",
+      "description": "Build your investor risk profile in minutes with a guided assessment."
+    },
+    "news-agent": {
+      "title": "News Agent",
+      "description": "AI-summarized news with sentiment analysis in Arabic and English."
+    },
+    "arima-forecast": {
+      "title": "ARIMA Forecast",
+      "description": "30-day statistical price forecast with confidence intervals."
+    },
+    "portfolio-allocator": {
+      "title": "Portfolio Allocator",
+      "description": "Distribute your investment budget intelligently across a basket of stocks."
+    },
+    "sector-explorer": {
+      "title": "Sector Explorer",
+      "description": "Compare investment readiness across entire market sectors."
+    },
+    "risk-dashboard": {
+      "title": "Risk Dashboard",
+      "description": "Full volatility, VaR, Sharpe, and beta analysis with technicals."
+    },
+    "zakat-calculator": {
+      "title": "Zakat Calculator",
+      "description": "Estimate the zakat due on your portfolio with practical guidance."
+    },
+    "live-monitoring": {
+      "title": "Live Monitoring",
+      "description": "Real-time alerts and portfolio tracking. Coming soon.",
+      "comingSoon": "Coming Soon"
+    }
+  },
+  "upgrade": {
+    "arima": {
+      "title": "ARIMA Forecast",
+      "description": "Unlock 30-day statistical price forecasts with 95% confidence intervals."
+    },
+    "risk": {
+      "title": "Full Risk Dashboard",
+      "description": "Access volatility, VaR, Sharpe ratio, beta, and technical indicators."
+    },
+    "allocator": {
+      "title": "Portfolio Allocator",
+      "description": "Distribute your investment budget intelligently across a basket of stocks."
+    },
+    "sector": {
+      "title": "Sector Explorer",
+      "description": "Compare and rank stocks across entire market sectors."
+    },
+    "news": {
+      "title": "Full News Analysis",
+      "description": "Access all news articles and detailed sentiment breakdowns."
+    },
+    "live-monitoring": {
+      "title": "Live Monitoring",
+      "description": "Real-time alerts and portfolio tracking — stay ahead of the market."
+    },
+    "cta": "Upgrade to Pro",
+    "href": "#pricing"
+  },
+  "upgradeModal": {
+    "title": "Unlock Pro Features",
+    "subtitle": "You're on the Free plan. Upgrade to get the full $ahim experience.",
+    "cta": "Upgrade to Pro",
+    "dismiss": "Maybe later",
+    "features": {
+      "arima": "ARIMA 30-day price forecast",
+      "allocator": "Portfolio budget allocator",
+      "sector": "Sector comparison & benchmarking",
+      "risk": "Full risk dashboard (VaR, Sharpe, Beta)",
+      "news": "Unlimited AI news analysis"
+    }
+  },
+  "riskWizard": {
+    "title": "Risk Tolerance Wizard",
+    "progress": "Question {current} of {total}",
+    "next": "Next",
+    "previous": "Previous",
+    "calculate": "Calculate My Risk Profile",
+    "saving": "Saving...",
+    "result": {
+      "conservative": "Conservative Investor",
+      "moderate": "Balanced Investor",
+      "aggressive": "Growth Investor"
+    },
+    "resultDescription": {
+      "conservative": "You prefer capital preservation and stable returns over high growth.",
+      "moderate": "You balance growth potential with acceptable risk exposure.",
+      "aggressive": "You seek maximum growth and can tolerate significant market volatility."
+    },
+    "simulation": {
+      "title": "Live Risk Simulation",
+      "score": "Estimated score: {score}/100 based on {answered}/{total} answered questions"
+    },
+    "disclaimer": "This result is for educational purposes only. It does not constitute investment advice. Please consult a qualified financial advisor before making investment decisions.",
+    "howCalculated": "How is this calculated?",
+    "howCalculatedText": "Your score is calculated from 6 factors: investment horizon (25%), maximum acceptable drawdown (20%), age (15%), financial knowledge (15%), income stability (15%), and patience during downturns (10%).",
+    "saveProfile": "Save Profile",
+    "returnToDashboard": "Return to Dashboard",
+    "retake": "Retake Wizard",
+    "questions": {
+      "q1": "What is your investment time horizon?",
+      "q1Options": ["Less than 1 year", "1–3 years", "3–7 years", "More than 7 years"],
+      "q2": "What is the maximum portfolio loss you could accept in one year?",
+      "q2Options": ["Less than 5%", "5–15%", "15–30%", "More than 30%"],
+      "q3": "What is your age group?",
+      "q3Options": ["Under 25", "25–40", "41–55", "Over 55"],
+      "q4": "How would you rate your investment knowledge?",
+      "q4Options": ["Beginner", "Intermediate", "Advanced", "Expert"],
+      "q5": "How stable is your income?",
+      "q5Options": ["Very unstable", "Somewhat unstable", "Stable", "Very stable"],
+      "q6": "If your portfolio dropped 20%, how long would you wait before selling?",
+      "q6Options": ["I would sell immediately", "A few weeks", "Several months", "I would hold indefinitely"]
+    }
+  },
+  "purification": {
+    "title": "Dividend Purification Calculator",
+    "dividendLabel": "Dividend Amount",
+    "currencyLabel": "Currency",
+    "resultLabel": "Purification Amount (to donate)",
+    "noCleanup": "No purification required for this stock.",
+    "formulaTitle": "How is this calculated?",
+    "formulaText": "The purification amount equals your dividend income multiplied by the stock's non-halal income ratio (interest income / total revenue). This portion should be donated to charity.",
+    "disclaimer": "This calculator is for guidance only. Consult a qualified Islamic finance scholar for your specific situation.",
+    "unavailable": "Ratio unavailable — please verify with your data source.",
+    "invalidAmount": "Please enter a valid positive amount.",
+    "calculate": "Calculate"
+  },
+  "zakatCalculator": {
+    "title": "Zakat Calculator",
+    "portfolioLabel": "Portfolio Value",
+    "liabilitiesLabel": "Liabilities / Debts",
+    "currencyLabel": "Currency",
+    "calculateButton": "Calculate Zakat",
+    "zakatDue": "Zakat Due",
+    "belowNisab": "Your net portfolio is below the nisab threshold. No Zakat is due.",
+    "nisabLabel": "Nisab Threshold",
+    "nisabSource": {
+      "api": "Live gold price",
+      "static": "Static value — please update"
+    },
+    "formulaTitle": "How is Zakat calculated?",
+    "formulaText": "Zakat = 2.5% of net wealth (portfolio − liabilities) if it equals or exceeds the nisab (85 grams of gold at today's price), and you have held it for one lunar year (hawl).",
+    "disclaimer": "This calculator provides an estimate. Consult a qualified Islamic scholar for your specific situation.",
+    "signInGate": "Sign in for free to save your Zakat calculation results.",
+    "goldPriceSource": "Gold price source: {source} ({date})"
+  },
+  "alerts": {
+    "title": "Compliance Alerts",
+    "toggleLabel": "Notify me if this stock's Shariah status changes",
+    "enabled": "Alerts enabled",
+    "disabled": "Alerts disabled",
+    "notificationTitle": "Shariah Status Change Detected",
+    "notificationBody": "{ticker} changed from {previous} to {current}",
+    "dismiss": "Dismiss",
+    "dismissAll": "Dismiss All",
+    "noAlerts": "No compliance changes detected.",
+    "savedSuccess": "Alert preference saved.",
+    "saveError": "Failed to save preference. Please try again.",
+    "upgradeRequired": "Upgrade to Pro to save compliance alerts.",
+    "signInRequired": "Sign in to save compliance alerts.",
+    "disclaimer": "Status changes are informational alerts, not a religious ruling."
+  },
+  "dashboard": {
+    "greeting": "Welcome to Your Dashboard",
+    "subtitle": "Track your halal portfolio, risk, and market signals in one place",
+    "homeEyebrow": "Dashboard Home",
+    "selectedSignal": "Selected signal",
+    "zone1Title": "Live Ticker",
+    "zone2Title": "Portfolio KPIs",
+    "zone3Title": "Forecast & Allocation",
+    "zone4Title": "Services",
+    "zone5Title": "Sector & Risk",
+    "zone6Title": "News Feed",
+    "riskUnknown": "Risk level not computed",
+    "onboarding": {
+      "eyebrow": "Profile setup",
+      "title": "Build your investor profile",
+      "subtitle": "A short setup checklist helps Sahim personalize market news, halal filters, risk signals, and dashboard guidance around your actual situation.",
+      "actions": {
+        "back": "Previous",
+        "next": "Next",
+        "complete": "Save profile",
+        "saving": "Saving...",
+        "close": "Close profile setup"
+      },
+      "saveError": "We could not save your profile. Please try again.",
+      "disclaimer": "Sahim uses this information to personalize educational insights. It is not licensed investment advice.",
+      "steps": {
+        "identity": {
+          "title": "Basic profile",
+          "body": "Start with the information needed for language, currency, market context, and user identity."
+        },
+        "suitability": {
+          "title": "Investment context",
+          "body": "These fields mirror common investor-profile factors such as objective, experience, time horizon, liquidity needs, and reliance on invested funds."
+        },
+        "preferences": {
+          "title": "Markets and interests",
+          "body": "Choose the markets, sectors, and news rhythm Sahim should prioritize in your dashboard."
+        },
+        "risk": {
+          "title": "Risk wizard",
+          "body": "Answer the risk behavior questions. Sahim reuses your age, experience, and time horizon from the previous step so you do not repeat yourself.",
+          "derived": "Already covered: age range, investment experience, and time horizon are pulled from your investment context."
+        },
+        "review": {
+          "title": "Ready to personalize",
+          "body": "Review the profile summary. Saving will update your dashboard and store your risk profile."
+        }
+      },
+      "fields": {
+        "name": "Name",
+        "country": "Country",
+        "age": "Age range",
+        "currency": "Base currency",
+        "objective": "Primary objective",
+        "experience": "Investment experience",
+        "horizon": "Time horizon",
+        "liquidity": "Liquidity needs",
+        "reliance": "Reliance on funds",
+        "halal": "Halal preference",
+        "markets": "Preferred markets",
+        "sectors": "Interested sectors",
+        "newsCadence": "News frequency"
+      },
+      "review": {
+        "profile": "Profile",
+        "location": "Location",
+        "objective": "Objective",
+        "markets": "Markets",
+        "sectors": "Sectors",
+        "risk": "Risk profile",
+        "unnamed": "Investor"
+      },
+      "options": {
+        "country": {
+          "sa": "Saudi Arabia",
+          "ae": "United Arab Emirates",
+          "eg": "Egypt",
+          "qa": "Qatar",
+          "kw": "Kuwait",
+          "bh": "Bahrain",
+          "om": "Oman",
+          "us": "United States",
+          "other": "Other"
+        },
+        "age": {
+          "under25": "Under 25",
+          "25to40": "25 to 40",
+          "41to55": "41 to 55",
+          "over55": "Over 55"
+        },
+        "objective": {
+          "learn": "Learn and understand markets",
+          "preserve": "Preserve capital",
+          "balanced": "Balanced growth",
+          "income": "Income and dividends",
+          "growth": "Long-term growth"
+        },
+        "experience": {
+          "beginner": "Beginner",
+          "some": "Some experience",
+          "confident": "Confident investor",
+          "advanced": "Advanced"
+        },
+        "horizon": {
+          "under1": "Less than 1 year",
+          "1to3": "1 to 3 years",
+          "3to7": "3 to 7 years",
+          "over7": "More than 7 years"
+        },
+        "liquidity": {
+          "high": "I may need cash soon",
+          "medium": "Some access matters",
+          "low": "Long-term funds"
+        },
+        "reliance": {
+          "essential": "Essential money",
+          "important": "Important savings",
+          "flexible": "Flexible savings",
+          "surplus": "Surplus capital"
+        },
+        "halal": {
+          "strict": "Strict Shariah-first filter",
+          "balanced": "Show halal context with analysis",
+          "informational": "Informational only"
+        },
+        "market": {
+          "tadawul": "Tadawul",
+          "adx": "ADX",
+          "dfm": "DFM",
+          "egx": "EGX",
+          "us": "US stocks",
+          "global": "Global watchlist"
+        },
+        "sector": {
+          "technology": "Technology",
+          "financials": "Financials",
+          "healthcare": "Healthcare",
+          "energy": "Energy",
+          "consumer": "Consumer",
+          "industrials": "Industrials",
+          "realEstate": "Real estate",
+          "materials": "Materials"
+        },
+        "news": {
+          "marketOpen": "Market open brief",
+          "daily": "Daily digest",
+          "weekly": "Weekly roundup",
+          "alertsOnly": "Important alerts only"
+        }
+      }
+    },
+    "nav": {
+      "label": "Dashboard navigation",
+      "home": "Home",
+      "homeDescription": "Dashboard overview, hot news, KPIs, charts, and services",
+      "workspace": "Investor workspace",
+      "advisorTitle": "Need a direction?",
+      "advisorBody": "Start with the Risk Wizard, then use Sahim's tools to understand halal status, risk, news, and allocation.",
+      "advisorCta": "Open Risk Wizard",
+      "selectedTicker": "Selected",
+      "welcome": "Welcome back",
+      "defaultUser": "Sahim Investor",
+      "signOut": "Sign out"
+    },
+    "search": {
+      "label": "Search dashboard pages and services",
+      "placeholder": "Search services, pages, tickers, and tools",
+      "empty": "No matching service or page found"
+    },
+    "guide": {
+      "open": "Open dashboard guide",
+      "close": "Close guide",
+      "eyebrow": "Quick guide",
+      "title": "How to use Sahim",
+      "subtitle": "A short walkthrough to help you start from the right place and move through the dashboard confidently.",
+      "profileCta": "Edit investor profile",
+      "profileCtaBody": "Update your info, interests, markets, and risk preferences.",
+      "stepCount": "Step {current} of {total}",
+      "previous": "Previous",
+      "next": "Next",
+      "finish": "Finish",
+      "steps": {
+        "start": {
+          "label": "Start here",
+          "title": "Begin with your investment profile",
+          "body": "Use the Risk Wizard first so Sahim can frame risk signals around your tolerance. This gives the rest of the dashboard better context."
+        },
+        "search": {
+          "label": "Search",
+          "title": "Use search to jump anywhere",
+          "body": "The top search bar finds Sahim pages, tools, and services. Search for halal checks, forecasts, zakat, sectors, or stock pages."
+        },
+        "services": {
+          "label": "Services",
+          "title": "Open tools from the sidebar",
+          "body": "The sidebar keeps every Sahim service one click away. Free tools are available immediately, while Pro tools show upgrade prompts when needed."
+        },
+        "insights": {
+          "label": "Insights",
+          "title": "Read the dashboard from top to bottom",
+          "body": "Start with hot news, then scan KPIs, forecasts, portfolio allocation, sector performance, and risk. Use ticker clicks to update the forecast."
+        },
+        "support": {
+          "label": "Support",
+          "title": "Ask the support agent",
+          "body": "Use the floating support chat when you are unsure where to go. It can explain Sahim services and guide you through the website."
+        }
+      }
+    },
+    "notifications": {
+      "open": "Open notifications",
+      "close": "Close notifications",
+      "dismiss": "Dismiss notification",
+      "title": "Notifications",
+      "subtitle": "Market, halal, and account updates",
+      "empty": "You're all caught up.",
+      "market": {
+        "title": "Market pulse is active",
+        "body": "Your dashboard is tracking hot market signals and watchlist news.",
+        "time": "Now"
+      },
+      "halal": {
+        "title": "Halal checks are available",
+        "body": "Open any stock to review its latest Shariah compliance status.",
+        "time": "Today"
+      },
+      "zakat": {
+        "title": "Zakat reminder",
+        "body": "Use the Zakat Calculator to estimate your portfolio obligation.",
+        "time": "This week"
+      }
+    },
+    "support": {
+      "open": "Open support chat",
+      "close": "Close support chat",
+      "title": "Sahim Support Agent",
+      "subtitle": "Gemini-powered website assistant",
+      "welcome": "Hi, I can help you understand Sahim services, find pages, and use the dashboard.",
+      "placeholder": "Ask about any service...",
+      "send": "Send message",
+      "thinking": "Thinking...",
+      "fallback": "I could not reach the assistant right now, but I can still help you navigate Sahim services.",
+      "disclaimer": "Support answers are informational and are not licensed investment advice."
+    },
+    "newsStack": {
+      "eyebrow": "News Agent",
+      "title": "Hot market news",
+      "open": "Open stock view",
+      "time": {
+        "now": "Now",
+        "minutesAgo": "{count}m ago",
+        "hoursAgo": "{count}h ago"
+      }
+    },
+    "ticker": {
+      "clickToView": "Click to view {symbol} ARIMA chart"
+    },
+    "zone": {
+      "tickerStrip": "Live Prices",
+      "kpiCards": "Your Portfolio Summary",
+      "charts": "Key Analytics",
+      "services": "Services",
+      "sector": "Sector Performance",
+      "news": "Latest News"
+    },
+    "kpi": {
+      "watchlist": "Watchlist Size",
+      "watchlistSubtitle": "Tracked stocks",
+      "compliance": "Halal Compliance",
+      "complianceSubtitle": "Shariah-compliant ratio",
+      "riskProfile": "Risk Profile",
+      "riskSubtitle": "Your latest risk assessment",
+      "zakat": "Zakat Reminder",
+      "zakatSubtitle": "Last zakat calculation",
+      "computeRisk": "Calculate Risk",
+      "notSet": "Not set",
+      "watchlistSize": "Watchlist Size",
+      "halalCompliance": "Halal Compliance Rate",
+      "riskLevel": "Risk Level",
+      "zakatReminder": "Zakat Reminder",
+      "noWatchlistItems": "No stocks yet",
+      "setRiskProfile": "Calculate Now",
+      "notCalculated": "Not calculated",
+      "calculateZakat": "Calculate Now",
+      "daysSinceZakat": "Last calculation: {days} days ago"
+    },
+    "arima": {
+      "title": "Price Forecast (ARIMA)",
+      "forecast": "Forecast",
+      "price": "Price",
+      "ciUpper": "CI Upper",
+      "ciLower": "CI Lower",
+      "empty": "No forecast data available",
+      "days7": "7 days",
+      "days30": "30 days",
+      "selectTicker": "Select a stock from the ticker strip above to view the forecast",
+      "viewFull": "View Full Forecasts →",
+      "upgradeBanner": "Extend to 30 days — Upgrade to Pro"
+    },
+    "portfolio": {
+      "title": "Portfolio Allocation",
+      "emptyState": "Add stocks to view allocation",
+      "empty": "Add stocks to view allocation"
+    },
+    "sector": {
+      "title": "Sector Performance",
+      "performance": "Performance",
+      "empty": "No sector data available",
+      "period": {
+        "week": "Week",
+        "month": "Month",
+        "quarter": "3 Months"
+      },
+      "week": "Week",
+      "month": "Month",
+      "quarter": "3 Months",
+      "pro": "Pro"
+    },
+    "risk": {
+      "title": "Risk Level",
+      "discoverRisk": "Discover Your Risk Profile",
+      "emptyState": "Discover Your Risk Profile",
+      "score": "Score",
+      "remaining": "Remaining",
+      "outOf100": "Out of 100",
+      "discoverProfile": "Discover Your Risk Profile",
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High"
+    },
+    "news": {
+      "title": "Latest News",
+      "empty": "Add stocks to follow their news",
+      "addStocks": "Add Stocks",
+      "status": {
+        "halal": "Halal",
+        "purification": "Purification",
+        "nonHalal": "Non-Halal",
+        "unknown": "Undetermined"
+      },
+      "time": {
+        "now": "Now",
+        "hoursAgo": "{count}h ago",
+        "daysAgo": "{count}d ago"
+      },
+      "noNews": "Add stocks to follow their news",
+      "moreNews": "Subscribe to Pro to see more",
+      "readMore": "Read More"
+    },
+    "services": {
+      "stockScreener": "Stock Screener",
+      "stockScreenerDesc": "Find stocks suited to your investment profile",
+      "halalVerdict": "Halal Verdict",
+      "halalVerdictDesc": "Check the Shariah compliance status of any stock",
+      "riskWizard": "Risk Wizard",
+      "riskWizardDesc": "Calculate your personal risk profile",
+      "arimaForecast": "Price Forecast",
+      "arimaForecastDesc": "Get a statistical forecast of stock prices",
+      "portfolioAllocator": "Portfolio Allocator",
+      "portfolioAllocatorDesc": "Allocate your budget across multiple stocks",
+      "riskDashboard": "Risk Dashboard",
+      "riskDashboardDesc": "Monitor advanced risk indicators",
+      "sectorExplorer": "Sector Explorer",
+      "sectorExplorerDesc": "Compare stocks within a sector",
+      "newsAgent": "News Agent",
+      "newsAgentDesc": "Read AI-powered news analysis",
+      "zakatCalculator": "Zakat Calculator",
+      "zakatCalculatorDesc": "Calculate Zakat due on your portfolio"
+    },
+    "tier": {
+      "guest": "Guest",
+      "free": "Free",
+      "pro": "Pro",
+      "enterprise": "Enterprise",
+      "upgrade": "Upgrade to Access",
+      "proOnly": "Pro feature only",
+      "proFeature": "Available to Pro subscribers only"
+    },
+    "disclaimer": {
+      "halal": "Final halal verification is the user's responsibility",
+      "investmentAdvice": "Independent informational analysis — not licensed investment advice"
+    }
+  }
+}
